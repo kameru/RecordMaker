@@ -30,4 +30,11 @@ public class Worker {
         return new Worker("NT"+String.format("%05d",workerNumber),scoreNumber);
     }
 
+    public String getNumber() {
+        return number;
+    }
+
+    public int getScore() {
+        return score;
+    }
 }
