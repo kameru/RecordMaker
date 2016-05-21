@@ -6,7 +6,7 @@ import java.util.Random;
 public class Worker {
     private String number;
     private int score;
-    private static ArrayList checker = new ArrayList();
+    private static ArrayList<Integer> checker = new ArrayList<Integer>();
 
     public Worker(String number, int score) {
         this.number = number;
