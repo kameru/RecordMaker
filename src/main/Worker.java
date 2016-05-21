@@ -2,9 +2,6 @@ package main;
 
 import java.util.Random;
 
-/**
- * Created by miri1 on 2016-05-21.
- */
 public class Worker {
     String number;
     int score;
