@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Worker {
-    String number;
-    int score;
-    static ArrayList checker = new ArrayList();
+    private String number;
+    private int score;
+    private static ArrayList checker = new ArrayList();
 
     public Worker(String number, int score) {
         this.number = number;
